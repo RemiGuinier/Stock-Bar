@@ -22,9 +22,6 @@
 					    <a href="index.php?action=Halloffame">Hall of Fame</a>
 					</li>
 					<li>
-                        <a href="index.php?action=about">A propos de ce jeu</a>
-                    </li>
-					<li>
                         <a href="index.php?action=connexion">Connexion</a>
                     </li>
 					

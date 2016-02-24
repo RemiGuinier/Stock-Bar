@@ -3,7 +3,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; DI PIETRO GUINIER LING</p>
+                    <p>Copyright &copy; BLANCHET GUIEU GUINIER KTARI MENEGAZZI</p>
                 </div>
             </div>
         </footer>

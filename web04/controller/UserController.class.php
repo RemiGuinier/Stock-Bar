@@ -46,47 +46,12 @@ class UserController extends Controller
 		$v = new UserView($this->user);
 		$v->renderProfile();
 	}
-	
-	// action de lancer le jeu preciser numero de partie et login
-	public function game($args) {
-		$v = new UserView($this->user);
-		$v->renderGame();
-	}
 
-	public function HallOfFame(){
-		$view = new HalloffameUserView($this,'halloffameUser',(UserModel::getBestUsers()));
-                $view->setArg('terminee', UserModel::getPartieTerminees());
-                $view->setArg('enCours', UserModel::getPartieEnCours());
-		$view->render();
-
-	}
-	
-	public function about(){
-		$view = new AboutUserView($this,'aboutUser');
-		$view->render();
-	}
-        
-        public function invitations(){
-		$view = new InvitationView($this,'invitations',  UserModel::getMesInvitations());
-		$view->render();
-	}
 	
 	public function monProfil(){
 		$view = new MonProfilView($this,'monProfil');
 		$view->render();
 	}
-
-	public function mesParties(){
-
-		$view = new JeuView($this,'mesParties',UserModel::getMesParties());
-		$view->render();
-    }
-	
-	public function partiesEnLigne(){
-
-		$view = new JeuView($this,'partiesEnLigne',UserModel::getAllParties());
-		$view->render();
-    }
 	
 	public function connected(){
 		

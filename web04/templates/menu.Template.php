@@ -8,27 +8,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php?controller=user">Ticket to Mines</a>
+                <a class="navbar-brand" href="index.php?controller=user">Stock-bar</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
 					<li>
-						<a href="index.php?controller=user&action=mesParties">Mes parties</a>
+						<a href="index.php?controller=user&action=mesParties">Le stock</a>
 					</li>
                     <li>
-                        <a href="index.php?controller=user&action=partiesEnLigne">Parties en ligne !</a>
+                        <a href="index.php?controller=user&action=partiesEnLigne">Les bières</a>
                     </li>
 					<li>
-					    <a href="index.php?controller=user&action=Halloffame">Hall of Fame</a>
-					</li>
-
 					<li>
-                        <a href="index.php?controller=user&action=about">A propos de ce jeu</a>
-					</li>
-
-					<li>
-                        <a href="index.php?controller=user&action=monProfil">Profil</a>
+                        <a href="index.php?controller=user&action=monProfil">Mon profil</a>
 					</li>
 					
 					<?php if(isset($_SESSION['role']) && ($_SESSION['role'])>1){
